@@ -9,7 +9,7 @@
           "src": "./"
         }
       ],
-      "dest": "api",
+      "dest": "docs/SoluiNet.Core",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
     },
@@ -22,7 +22,7 @@
           "src": "../SoluiNet.Core.UI/"
         }
       ],
-      "dest": "api-ui",
+      "dest": "docs/SoluiNet.Core.UI",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
     },
@@ -35,7 +35,7 @@
           "src": "../SoluiNet.Core.UI.WPF/"
         }
       ],
-      "dest": "api-ui-wpf",
+      "dest": "docs/SoluiNet.Core.UI.WPF",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
     }
@@ -44,12 +44,12 @@
     "content": [
       {
         "files": [
-          "api/**.yml",
-          "api/index.md",
-          "api-ui/**.yml",
-          "api-ui/index.md",
-          "api-ui-wpf/**.yml",
-          "api-ui-wpf/index.md"
+          "docs/SoluiNet.Core/**.yml",
+          "docs/SoluiNet.Core/index.md",
+          "docs/SoluiNet.Core.UI/**.yml",
+          "docs/SoluiNet.Core.UI/index.md",
+          "docs/SoluiNet.Core.UI.WPF/**.yml",
+          "docs/SoluiNet.Core.UI.WPF/index.md"
         ]
       },
       {
@@ -79,13 +79,13 @@
         ]
       }
     ],
-    "dest": "../api_documentation",
+    "dest": "../docs/output",
     "globalMetadata": {
-      "_appTitle": "SoluiNet.DevTools",
+      "_appTitle": "SoluiNet.Core",
       "_appLogoPath": "images/logo.svg",
       "_appFaviconPath": "images/favicon.ico",
       "_gitContribute": {
-        "repo": "https://github.com/SoluiNet/SoluiNet.DevTools",
+        "repo": "https://github.com/SoluiNet/SoluiNet.Core",
         "branch": "master",
         "apiSpecFolder": "SoluiNet.Core/apidoc"
       },
