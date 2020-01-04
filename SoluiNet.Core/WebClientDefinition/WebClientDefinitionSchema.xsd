@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="WebClientDefinition"
+    targetNamespace="http://solui.net/WebClientDefinition.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://solui.net/WebClientDefinition.xsd"
+    xmlns:mstns="http://solui.net/WebClientDefinition.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:simpleType name="SoluiNet.HttpMethodType" final="restriction" >
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="POST" />
+      <xs:enumeration value="GET" />
+      <xs:enumeration value="PUT" />
+      <xs:enumeration value="DELETE" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="SoluiNet.ContentType" final="restriction" >
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="application/json" />
+      <xs:enumeration value="application/xml" />
+      <xs:enumeration value="text/html" />
+      <xs:enumeration value="text/xml" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="SoluiNet.HttpHeaderType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="Name" type="xs:string">
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="SoluiNet.WebMethodType">
+    <xs:sequence>
+      <xs:element name="Name" type="xs:string" />
+      <xs:element name="Description" type="xs:string" />
+      <xs:element name="RequestContent" type="xs:string" />
+      <xs:element name="SupportedHttpMethods" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="HttpMethod" type="SoluiNet.HttpMethodType" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SupportedContentTypes" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="ContentType" type="SoluiNet.ContentType" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PreparedHttpHeaders" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="HttpHeader" type="SoluiNet.HttpHeaderType" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="SoluiNet.EndpointType">
+    <xs:sequence>
+      <xs:element name="Name" type="xs:string" />
+      <xs:element name="Description" type="xs:string" />
+      <xs:element name="Url" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="SoluiNet.WebClientDefinition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Endpoints" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Endpoint" type="SoluiNet.EndpointType" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Methods" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WebMethod" type="SoluiNet.WebMethodType" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
