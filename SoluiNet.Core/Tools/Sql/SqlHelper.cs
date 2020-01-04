@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Tools.Sql
+namespace SoluiNet.Core.Tools.Sql
 {
     using System;
     using System.Collections.Generic;

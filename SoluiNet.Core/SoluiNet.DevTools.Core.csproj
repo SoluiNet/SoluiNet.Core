@@ -2,9 +2,9 @@
   <PropertyGroup>
     <ProjectGuid>{DDC0B05A-0D22-4883-81C5-CF70A8BF3AF1}</ProjectGuid>
     <TargetFramework>net461</TargetFramework>
-    <AssemblyTitle>SoluiNet.DevTools.Core</AssemblyTitle>
+    <AssemblyTitle>SoluiNet.Core</AssemblyTitle>
     <Company>SoluiNet</Company>
-    <Product>SoluiNet.DevTools.Core</Product>
+    <Product>SoluiNet.Core</Product>
     <Copyright>Copyright © SoluiNet 2018</Copyright>
   </PropertyGroup>
   <PropertyGroup>
@@ -89,7 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="log.txt" />
-    <None Remove="SoluiNet.DevTools.Core.csproj~RF295ae54c.TMP" />
+    <None Remove="SoluiNet.Core.csproj~RF295ae54c.TMP" />
     <None Remove="stylecop.json" />
   </ItemGroup>
   <ItemGroup>

@@ -2,12 +2,12 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.UI.WPF.Converter
+namespace SoluiNet.Core.UI.WPF.Converter
 {
     using System;
     using System.Globalization;
     using System.Windows.Data;
-    using SoluiNet.DevTools.Core.Tools.Number;
+    using SoluiNet.Core.Tools.Number;
 
     /// <summary>
     /// Converts durations to readable strings.

@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Windows.Tools.Security
+namespace SoluiNet.Core.Windows.Tools.Security
 {
     using System;
     using System.Runtime.InteropServices;

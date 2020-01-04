@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.UI.WPF.XmlData
+namespace SoluiNet.Core.UI.WPF.XmlData
 {
     using System;
     using System.Collections.Generic;
@@ -10,8 +10,8 @@ namespace SoluiNet.DevTools.Core.UI.WPF.XmlData
     using System.Text;
     using System.Threading.Tasks;
     using System.Windows.Media;
-    using SoluiNet.DevTools.Core.UI.WPF.Tools.String;
-    using SoluiNet.DevTools.Core.XmlData;
+    using SoluiNet.Core.UI.WPF.Tools.String;
+    using SoluiNet.Core.XmlData;
 
     /// <summary>
     /// A collection of extension methods for xml data classes.

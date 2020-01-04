@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Plugin.Events
+namespace SoluiNet.Core.Plugin.Events
 {
     using System;
     using System.Collections.Generic;

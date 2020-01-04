@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Tools.XML
+namespace SoluiNet.Core.Tools.XML
 {
     using System;
     using System.Collections.Generic;
@@ -16,8 +16,8 @@ namespace SoluiNet.DevTools.Core.Tools.XML
     using System.Xml.Linq;
     using System.Xml.Serialization;
     using System.Xml.Xsl;
-    using SoluiNet.DevTools.Core.Tools.Stream;
-    using SoluiNet.DevTools.Core.Tools.String;
+    using SoluiNet.Core.Tools.Stream;
+    using SoluiNet.Core.Tools.String;
 
     /// <summary>
     /// Provides a collection of methods to work with XML.

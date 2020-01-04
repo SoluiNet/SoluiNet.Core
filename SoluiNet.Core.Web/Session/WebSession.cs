@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Web.Session
+namespace SoluiNet.Core.Web.Session
 {
     using System;
     using System.Collections.Generic;

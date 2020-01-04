@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Windows.Tools.HotKey
+namespace SoluiNet.Core.Windows.Tools.HotKey
 {
     using System;
     using System.Runtime.InteropServices;

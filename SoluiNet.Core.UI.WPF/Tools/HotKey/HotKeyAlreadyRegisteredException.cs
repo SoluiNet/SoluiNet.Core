@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.UI.WPF.Tools.HotKey
+namespace SoluiNet.Core.UI.WPF.Tools.HotKey
 {
     using System;
     using System.Runtime.Serialization;

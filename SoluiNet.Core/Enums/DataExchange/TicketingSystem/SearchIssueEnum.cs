@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Enums.DataExchange.TicketingSystem
+namespace SoluiNet.Core.Enums.DataExchange.TicketingSystem
 {
     using System;
     using System.Collections.Generic;

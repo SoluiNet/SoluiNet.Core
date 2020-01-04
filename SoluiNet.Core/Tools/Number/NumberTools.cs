@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Tools.Number
+namespace SoluiNet.Core.Tools.Number
 {
     using System;
     using System.Collections.Generic;

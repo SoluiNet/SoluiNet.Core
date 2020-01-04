@@ -2,17 +2,17 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.UI.WPF.Application
+namespace SoluiNet.Core.UI.WPF.Application
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    using SoluiNet.DevTools.Core.Plugin;
-    using SoluiNet.DevTools.Core.UI;
-    using SoluiNet.DevTools.Core.UI.Application;
-    using SoluiNet.DevTools.Core.UI.WPF.Plugin;
+    using SoluiNet.Core.Plugin;
+    using SoluiNet.Core.UI;
+    using SoluiNet.Core.UI.Application;
+    using SoluiNet.Core.UI.WPF.Plugin;
 
     /// <summary>
     /// Provides an interface for the SoluiNet.DevTools WPF application.

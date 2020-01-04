@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Tools.Json
+namespace SoluiNet.Core.Tools.Json
 {
     using System;
     using System.Globalization;

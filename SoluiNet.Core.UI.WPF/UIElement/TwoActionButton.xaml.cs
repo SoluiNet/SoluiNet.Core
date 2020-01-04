@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.UI.WPF.UIElement
+namespace SoluiNet.Core.UI.WPF.UIElement
 {
     using System;
     using System.Collections.Generic;
@@ -20,7 +20,7 @@ namespace SoluiNet.DevTools.Core.UI.WPF.UIElement
     using System.Windows.Media.Imaging;
     using System.Windows.Navigation;
     using System.Windows.Shapes;
-    using SoluiNet.DevTools.Core.Tools.Json;
+    using SoluiNet.Core.Tools.Json;
 
     /// <summary>
     /// Interaction logic for TwoActionButton.xaml.

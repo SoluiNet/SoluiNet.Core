@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.UI.WPF.Tools.UI
+namespace SoluiNet.Core.UI.WPF.Tools.UI
 {
     using System;
     using System.Collections.Generic;
@@ -20,9 +20,9 @@ namespace SoluiNet.DevTools.Core.UI.WPF.Tools.UI
     using System.Xml;
     using ICSharpCode.AvalonEdit.Highlighting;
     using ICSharpCode.AvalonEdit.Highlighting.Xshd;
-    using SoluiNet.DevTools.Core.Tools.Resources;
-    using SoluiNet.DevTools.Core.Tools.String;
-    using SoluiNet.DevTools.Core.UI.WPF.Extensions;
+    using SoluiNet.Core.Tools.Resources;
+    using SoluiNet.Core.Tools.String;
+    using SoluiNet.Core.UI.WPF.Extensions;
 
     /// <summary>
     /// Provides functions for working with the UI.

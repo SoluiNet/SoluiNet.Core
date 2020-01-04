@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.XmlData
+namespace SoluiNet.Core.XmlData
 {
     using System;
     using System.Collections.Generic;

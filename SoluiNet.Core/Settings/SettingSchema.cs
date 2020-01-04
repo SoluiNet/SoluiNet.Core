@@ -11,7 +11,7 @@
 // 
 // Dieser Quellcode wurde automatisch generiert von xsd, Version=4.6.1055.0.
 // 
-namespace SoluiNet.DevTools.Core.Settings {
+namespace SoluiNet.Core.Settings {
     using System.Xml.Serialization;
     
     

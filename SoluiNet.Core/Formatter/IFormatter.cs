@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Formatter
+namespace SoluiNet.Core.Formatter
 {
     using System;
     using System.Collections.Generic;

@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Extensions
+namespace SoluiNet.Core.Extensions
 {
     using System;
     using System.Collections.Generic;

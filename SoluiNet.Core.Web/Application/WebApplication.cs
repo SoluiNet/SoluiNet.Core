@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Web.Application
+namespace SoluiNet.Core.Web.Application
 {
     using System;
     using System.Collections.Generic;
@@ -13,10 +13,10 @@ namespace SoluiNet.DevTools.Core.Web.Application
     using System.Text;
     using System.Threading.Tasks;
     using NLog;
-    using SoluiNet.DevTools.Core.Plugin;
-    using SoluiNet.DevTools.Core.Tools;
-    using SoluiNet.DevTools.Core.Tools.Json;
-    using SoluiNet.DevTools.Core.Web.Plugin;
+    using SoluiNet.Core.Plugin;
+    using SoluiNet.Core.Tools;
+    using SoluiNet.Core.Tools.Json;
+    using SoluiNet.Core.Web.Plugin;
 
     /// <summary>
     /// The web application.
@@ -119,7 +119,7 @@ namespace SoluiNet.DevTools.Core.Web.Application
             this.BackgroundTaskPlugins = new List<IRunsBackgroundTask>();
             this.WebPlugins = new List<IProvidesWebCommunication>();
 
-            var enabledPlugins = SoluiNet.DevTools.Core.Plugin.Configuration.Configuration.Effective;
+            var enabledPlugins = SoluiNet.Core.Plugin.Configuration.Configuration.Effective;
 
             foreach (var type in pluginTypes)
             {

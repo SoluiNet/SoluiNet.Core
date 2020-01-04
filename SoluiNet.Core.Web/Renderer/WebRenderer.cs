@@ -2,14 +2,14 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Web.Renderer
+namespace SoluiNet.Core.Web.Renderer
 {
     using System;
     using System.Collections.Generic;
     using System.Text;
-    using SoluiNet.DevTools.Core.Extensions;
-    using SoluiNet.DevTools.Core.Tools.Object;
-    using SoluiNet.DevTools.Core.Web.Context;
+    using SoluiNet.Core.Extensions;
+    using SoluiNet.Core.Tools.Object;
+    using SoluiNet.Core.Web.Context;
 
     /// <summary>
     /// The web renderer.

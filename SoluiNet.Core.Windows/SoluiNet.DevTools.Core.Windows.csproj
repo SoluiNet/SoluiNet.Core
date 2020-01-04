@@ -2,9 +2,9 @@
   <PropertyGroup>
     <ProjectGuid>{64B47EED-3674-47F1-80FE-969339A8D34C}</ProjectGuid>
     <TargetFramework>net461</TargetFramework>
-    <AssemblyTitle>SoluiNet.DevTools.Core.Windows</AssemblyTitle>
+    <AssemblyTitle>SoluiNet.Core.Windows</AssemblyTitle>
     <Company>SoluiNet</Company>
-    <Product>SoluiNet.DevTools.Core.Windows</Product>
+    <Product>SoluiNet.Core.Windows</Product>
     <Copyright>Copyright © SoluiNet 2019</Copyright>
   </PropertyGroup>
   <PropertyGroup>
@@ -25,7 +25,7 @@
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SoluiNet.DevTools.Core\SoluiNet.DevTools.Core.csproj" />
+    <ProjectReference Include="..\SoluiNet.Core\SoluiNet.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="stylecop.json" />

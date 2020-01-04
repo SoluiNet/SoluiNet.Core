@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Tools
+namespace SoluiNet.Core.Tools
 {
     using System;
     using System.Collections.Generic;
@@ -11,11 +11,11 @@ namespace SoluiNet.DevTools.Core.Tools
     using System.IO;
     using System.Linq;
     using System.Reflection;
-    using SoluiNet.DevTools.Core.Plugin;
-    using SoluiNet.DevTools.Core.ScriptEngine;
-    using SoluiNet.DevTools.Core.Tools.File;
-    using SoluiNet.DevTools.Core.Tools.Stream;
-    using SoluiNet.DevTools.Core.Tools.XML;
+    using SoluiNet.Core.Plugin;
+    using SoluiNet.Core.ScriptEngine;
+    using SoluiNet.Core.Tools.File;
+    using SoluiNet.Core.Tools.Stream;
+    using SoluiNet.Core.Tools.XML;
 
     /// <summary>
     /// Provides a collection of methods that will help to work with SoluiNet.DevTools-plugins.
@@ -414,7 +414,7 @@ namespace SoluiNet.DevTools.Core.Tools
 
             var pluginList = new List<T>();
 
-            var enabledPlugins = SoluiNet.DevTools.Core.Plugin.Configuration.Configuration.Effective;
+            var enabledPlugins = SoluiNet.Core.Plugin.Configuration.Configuration.Effective;
 
             foreach (var assembly in assemblies)
             {

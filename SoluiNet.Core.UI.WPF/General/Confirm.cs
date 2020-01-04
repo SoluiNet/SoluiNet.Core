@@ -2,12 +2,12 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.UI.WPF.General
+namespace SoluiNet.Core.UI.WPF.General
 {
     using System.Globalization;
     using System.Windows;
     using System.Windows.Controls;
-    using SoluiNet.DevTools.Core.UI.WPF.Window;
+    using SoluiNet.Core.UI.WPF.Window;
 
     /// <summary>
     /// Provides methods to display a confirm window.

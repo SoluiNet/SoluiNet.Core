@@ -11,7 +11,7 @@
 // 
 // Dieser Quellcode wurde automatisch generiert von xsd, Version=4.7.3081.0.
 // 
-namespace SoluiNet.DevTools.Core.XmlData {
+namespace SoluiNet.Core.XmlData {
     using System.Xml.Serialization;
     
     

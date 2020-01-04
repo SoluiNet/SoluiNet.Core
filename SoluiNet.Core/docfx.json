@@ -19,7 +19,7 @@
           "files": [
             "**.csproj"
           ],
-          "src": "../SoluiNet.DevTools.Core.UI/"
+          "src": "../SoluiNet.Core.UI/"
         }
       ],
       "dest": "api-ui",
@@ -32,7 +32,7 @@
           "files": [
             "**.csproj"
           ],
-          "src": "../SoluiNet.DevTools.Core.UI.WPF/"
+          "src": "../SoluiNet.Core.UI.WPF/"
         }
       ],
       "dest": "api-ui-wpf",
@@ -87,7 +87,7 @@
       "_gitContribute": {
         "repo": "https://github.com/SoluiNet/SoluiNet.DevTools",
         "branch": "master",
-        "apiSpecFolder": "SoluiNet.DevTools.Core/apidoc"
+        "apiSpecFolder": "SoluiNet.Core/apidoc"
       },
       "_enableSearch": "true"
     },

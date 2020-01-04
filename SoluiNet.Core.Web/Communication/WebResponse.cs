@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Web.Communication
+namespace SoluiNet.Core.Web.Communication
 {
     using System;
     using System.Collections.Generic;
@@ -11,7 +11,7 @@ namespace SoluiNet.DevTools.Core.Web.Communication
     using System.Net;
     using System.Text;
     using System.Threading.Tasks;
-    using SoluiNet.DevTools.Core.Tools.Stream;
+    using SoluiNet.Core.Tools.Stream;
 
     /// <summary>
     /// A class which represents a web response.

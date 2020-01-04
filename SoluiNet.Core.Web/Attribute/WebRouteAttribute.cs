@@ -2,14 +2,14 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Web.Attribute
+namespace SoluiNet.Core.Web.Attribute
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    using SoluiNet.DevTools.Core.Enums;
+    using SoluiNet.Core.Enums;
 
     /// <summary>
     /// The web route attribute.

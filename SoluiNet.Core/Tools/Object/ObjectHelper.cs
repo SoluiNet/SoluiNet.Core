@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Tools.Object
+namespace SoluiNet.Core.Tools.Object
 {
     using System;
     using System.Collections;
@@ -10,7 +10,7 @@ namespace SoluiNet.DevTools.Core.Tools.Object
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    using SoluiNet.DevTools.Core.Tools.Stream;
+    using SoluiNet.Core.Tools.Stream;
 
     /// <summary>
     /// A collection of methods to work with objects.

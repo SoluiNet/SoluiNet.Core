@@ -2,14 +2,14 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Plugin
+namespace SoluiNet.Core.Plugin
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    using SoluiNet.DevTools.Core.Enums;
+    using SoluiNet.Core.Enums;
 
     /// <summary>
     /// Provides an interface for a plugin which provides information for web client usage.

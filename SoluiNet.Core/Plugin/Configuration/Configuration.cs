@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Plugin.Configuration
+namespace SoluiNet.Core.Plugin.Configuration
 {
     using System;
     using System.Collections.Generic;
@@ -12,8 +12,8 @@ namespace SoluiNet.DevTools.Core.Plugin.Configuration
     using System.Linq;
     using System.Reflection;
     using NLog;
-    using SoluiNet.DevTools.Core.Tools.File;
-    using SoluiNet.DevTools.Core.Tools.XML;
+    using SoluiNet.Core.Tools.File;
+    using SoluiNet.Core.Tools.XML;
 
     /// <summary>
     /// The plugin configuration.

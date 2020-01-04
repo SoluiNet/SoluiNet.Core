@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.UI.WPF.UIElement.Editor
+namespace SoluiNet.Core.UI.WPF.UIElement.Editor
 {
     using System;
     using System.Collections.Generic;

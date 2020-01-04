@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Plugin
+namespace SoluiNet.Core.Plugin
 {
     using System;
     using System.Collections.Generic;
@@ -10,7 +10,7 @@ namespace SoluiNet.DevTools.Core.Plugin
     using System.Text;
     using System.Threading;
     using System.Threading.Tasks;
-    using SoluiNet.DevTools.Core.CommonMethods;
+    using SoluiNet.Core.CommonMethods;
 
     /// <summary>
     /// Provides an interface for plugins with background tasks.

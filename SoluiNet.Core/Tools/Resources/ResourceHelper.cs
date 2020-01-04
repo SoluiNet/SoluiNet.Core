@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Tools.Resources
+namespace SoluiNet.Core.Tools.Resources
 {
     using System;
     using System.Globalization;

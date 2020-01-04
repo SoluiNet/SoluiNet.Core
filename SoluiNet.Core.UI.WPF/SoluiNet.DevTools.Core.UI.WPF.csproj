@@ -2,9 +2,9 @@
   <PropertyGroup>
     <ProjectGuid>{CB1DB5BC-9DD8-4050-919E-720B35DF882B}</ProjectGuid>
     <TargetFramework>net461</TargetFramework>
-    <AssemblyTitle>SoluiNet.DevTools.Core.UI.WPF</AssemblyTitle>
+    <AssemblyTitle>SoluiNet.Core.UI.WPF</AssemblyTitle>
     <Company>SoluiNet</Company>
-    <Product>SoluiNet.DevTools.Core.UI.WPF</Product>
+    <Product>SoluiNet.Core.UI.WPF</Product>
     <Copyright>Copyright © SoluiNet 2019</Copyright>
   </PropertyGroup>
   <PropertyGroup>
@@ -38,8 +38,8 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SoluiNet.DevTools.Core\SoluiNet.DevTools.Core.csproj" />
-    <ProjectReference Include="..\SoluiNet.DevTools.Core.UI\SoluiNet.DevTools.Core.UI.csproj" />
+    <ProjectReference Include="..\SoluiNet.Core\SoluiNet.Core.csproj" />
+    <ProjectReference Include="..\SoluiNet.Core.UI\SoluiNet.Core.UI.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="stylecop.json" />

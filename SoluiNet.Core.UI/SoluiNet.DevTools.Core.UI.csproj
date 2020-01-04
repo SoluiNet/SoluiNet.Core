@@ -2,9 +2,9 @@
   <PropertyGroup>
     <ProjectGuid>{906B056F-5C3C-4673-B31A-8B02EBBF6680}</ProjectGuid>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyTitle>SoluiNet.DevTools.Core.UI</AssemblyTitle>
+    <AssemblyTitle>SoluiNet.Core.UI</AssemblyTitle>
     <Company>SoluiNet</Company>
-    <Product>SoluiNet.DevTools.Core.UI</Product>
+    <Product>SoluiNet.Core.UI</Product>
     <Copyright>Copyright © SoluiNet 2019</Copyright>
   </PropertyGroup>
   <PropertyGroup>
@@ -31,6 +31,6 @@
     <AdditionalFiles Include="stylecop.json" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SoluiNet.DevTools.Core\SoluiNet.DevTools.Core.csproj" />
+    <ProjectReference Include="..\SoluiNet.Core\SoluiNet.Core.csproj" />
   </ItemGroup>
 </Project>

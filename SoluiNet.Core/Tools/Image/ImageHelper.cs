@@ -2,11 +2,11 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Tools.Image
+namespace SoluiNet.Core.Tools.Image
 {
     using System;
     using System.Drawing;
-    using SoluiNet.DevTools.Core.Tools.Resources;
+    using SoluiNet.Core.Tools.Resources;
 
     /// <summary>
     /// Provides a collection of methods which help with working with images.

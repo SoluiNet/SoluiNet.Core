@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Enums.DataExchange.SourceCodeRepository
+namespace SoluiNet.Core.Enums.DataExchange.SourceCodeRepository
 {
     using System;
     using System.Collections.Generic;

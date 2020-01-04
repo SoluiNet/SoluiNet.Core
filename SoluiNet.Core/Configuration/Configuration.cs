@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Configuration
+namespace SoluiNet.Core.Configuration
 {
     using System.Diagnostics.CodeAnalysis;
     using System.Globalization;

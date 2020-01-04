@@ -2,14 +2,14 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Application
+namespace SoluiNet.Core.Application
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    using SoluiNet.DevTools.Core.Plugin;
+    using SoluiNet.Core.Plugin;
 
     /// <summary>
     /// Provides an interface for the SoluiNet.DevTools application.

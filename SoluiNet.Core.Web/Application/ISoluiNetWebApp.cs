@@ -2,16 +2,16 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Web
+namespace SoluiNet.Core.Web
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    using SoluiNet.DevTools.Core.Application;
-    using SoluiNet.DevTools.Core.Plugin;
-    using SoluiNet.DevTools.Core.Web.Plugin;
+    using SoluiNet.Core.Application;
+    using SoluiNet.Core.Plugin;
+    using SoluiNet.Core.Web.Plugin;
 
     /// <summary>
     /// Provides an interface for the SoluiNet.DevTools UI application.

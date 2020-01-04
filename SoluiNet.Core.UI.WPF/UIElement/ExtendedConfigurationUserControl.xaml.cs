@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.UI.WPF.UIElement
+namespace SoluiNet.Core.UI.WPF.UIElement
 {
     using System;
     using System.Collections.Generic;
@@ -18,8 +18,8 @@ namespace SoluiNet.DevTools.Core.UI.WPF.UIElement
     using System.Windows.Media.Imaging;
     using System.Windows.Navigation;
     using System.Windows.Shapes;
-    using SoluiNet.DevTools.Core.Tools.XML;
-    using SoluiNet.DevTools.Core.XmlData;
+    using SoluiNet.Core.Tools.XML;
+    using SoluiNet.Core.XmlData;
 
     /// <summary>
     /// Interaction logic for ApplicationSettingsUserControl.xaml.

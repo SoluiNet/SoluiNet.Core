@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Tools.Database
+namespace SoluiNet.Core.Tools.Database
 {
     using System;
     using System.Collections.Generic;
@@ -11,8 +11,8 @@ namespace SoluiNet.DevTools.Core.Tools.Database
     using System.Data.SQLite;
     using System.Globalization;
     using System.Security.Principal;
-    using SoluiNet.DevTools.Core.Extensions;
-    using SoluiNet.DevTools.Core.Tools.Sql;
+    using SoluiNet.Core.Extensions;
+    using SoluiNet.Core.Tools.Sql;
 
     /// <summary>
     /// Provides a collection of methods to work with databases.

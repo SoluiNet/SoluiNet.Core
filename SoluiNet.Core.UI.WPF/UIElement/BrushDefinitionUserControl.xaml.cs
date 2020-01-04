@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.UI.WPF.UIElement
+namespace SoluiNet.Core.UI.WPF.UIElement
 {
     using System;
     using System.Collections.Generic;
@@ -18,11 +18,11 @@ namespace SoluiNet.DevTools.Core.UI.WPF.UIElement
     using System.Windows.Media.Imaging;
     using System.Windows.Navigation;
     using System.Windows.Shapes;
-    using SoluiNet.DevTools.Core.Tools.String;
-    using SoluiNet.DevTools.Core.UI.WPF.Tools;
-    using SoluiNet.DevTools.Core.UI.WPF.Tools.String;
-    using SoluiNet.DevTools.Core.UI.WPF.Tools.UI;
-    using SoluiNet.DevTools.Core.XmlData;
+    using SoluiNet.Core.Tools.String;
+    using SoluiNet.Core.UI.WPF.Tools;
+    using SoluiNet.Core.UI.WPF.Tools.String;
+    using SoluiNet.Core.UI.WPF.Tools.UI;
+    using SoluiNet.Core.XmlData;
 
     /// <summary>
     /// Interaction logic for BrushDefinitionUserControl.xaml.

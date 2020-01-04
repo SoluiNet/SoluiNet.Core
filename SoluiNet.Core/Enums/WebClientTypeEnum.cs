@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Enums
+namespace SoluiNet.Core.Enums
 {
     using System;
     using System.Collections.Generic;

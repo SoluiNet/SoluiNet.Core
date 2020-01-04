@@ -2,14 +2,14 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Plugin.Configuration
+namespace SoluiNet.Core.Plugin.Configuration
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    using SoluiNet.DevTools.Core.Enums;
+    using SoluiNet.Core.Enums;
 
     /// <summary>
     /// The plugin entry type.

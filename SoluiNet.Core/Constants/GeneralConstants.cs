@@ -2,7 +2,7 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Constants
+namespace SoluiNet.Core.Constants
 {
     using System;
     using System.Collections.Generic;

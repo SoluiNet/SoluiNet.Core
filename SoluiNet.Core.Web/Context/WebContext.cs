@@ -2,14 +2,14 @@
 // Copyright (c) SoluiNet. All rights reserved.
 // </copyright>
 
-namespace SoluiNet.DevTools.Core.Web.Context
+namespace SoluiNet.Core.Web.Context
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    using SoluiNet.DevTools.Core.Web.Session;
+    using SoluiNet.Core.Web.Session;
 
     /// <summary>
     /// The web context.
