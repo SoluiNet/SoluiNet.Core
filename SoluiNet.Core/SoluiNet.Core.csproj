@@ -9,7 +9,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <OutputPath>..\build\$(TargetFramework)\$(Platform)\$(Configuration)\$(AssemblyTitle)</OutputPath>
+    <OutputPath>..\build\$(TargetFramework)\$(Platform)\$(Configuration)\$(AssemblyTitle)\</OutputPath>
     <DocumentationFile>$(OutputPath)$(AssemblyName).xml</DocumentationFile>
     <NoWarn>$(NoWarn)</NoWarn>
   </PropertyGroup>
@@ -27,6 +27,9 @@
   </PropertyGroup>
   <PropertyGroup Condition="$([System.Text.RegularExpressions.Regex]::IsMatch('$(TargetFramework)', '^netcoreapp\d'))">
     <DefineConstants>NETCORE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LogFile>docfx-log-$(TargetFramework).log</LogFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="docfx.console" Version="2.48.0">
@@ -101,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="log.txt" />
+    <None Remove="docfx-log-*.log" />
     <None Remove="SoluiNet.Core.csproj~RF295ae54c.TMP" />
     <None Remove="stylecop.json" />
   </ItemGroup>
