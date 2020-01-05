@@ -105,15 +105,6 @@ namespace SoluiNet.Core.Formatter
         /// <returns>Returns a formatted SQL string according to the properties which have been set up for this class.</returns>
         public string FormatString(string originalString)
         {
-            /*var formatOptions = new PoorMansTSqlFormatterLib.Formatters.TSqlStandardFormatterOptions()
-            {
-                TrailingCommas = true,
-                BreakJoinOnSections = true,
-                IndentString = this.IndentationString,
-                UppercaseKeywords = true,
-                SpacesPerTab = 2,
-            };*/
-
             var formatter = new PoorMansTSqlFormatterLib.Formatters.TSqlStandardFormatter(
                 indentString: this.IndentationString,
                 spacesPerTab: 2,
@@ -128,11 +119,6 @@ namespace SoluiNet.Core.Formatter
                 uppercaseKeywords: true,
                 htmlColoring: false,
                 keywordStandardization: false);
-            /*trailingCommas: true,
-            breakJoinOnSections: true,
-            indentString: this.IndentationString,
-            uppercaseKeywords: true,
-            spacesPerTab: 2);*/
 
             var formattingManager = new PoorMansTSqlFormatterLib.SqlFormattingManager(formatter);
 
