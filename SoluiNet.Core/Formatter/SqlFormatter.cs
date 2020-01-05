@@ -115,11 +115,24 @@ namespace SoluiNet.Core.Formatter
             };*/
 
             var formatter = new PoorMansTSqlFormatterLib.Formatters.TSqlStandardFormatter(
-                trailingCommas: true,
-                breakJoinOnSections: true,
                 indentString: this.IndentationString,
+                spacesPerTab: 2,
+                maxLineWidth: 999,
+                expandCommaLists: true,
+                trailingCommas: false,
+                spaceAfterExpandedComma: false,
+                expandBooleanExpressions: true,
+                expandCaseStatements: true,
+                expandBetweenConditions: true,
+                breakJoinOnSections: true,
                 uppercaseKeywords: true,
-                spacesPerTab: 2);
+                htmlColoring: false,
+                keywordStandardization: false);
+            /*trailingCommas: true,
+            breakJoinOnSections: true,
+            indentString: this.IndentationString,
+            uppercaseKeywords: true,
+            spacesPerTab: 2);*/
 
             var formattingManager = new PoorMansTSqlFormatterLib.SqlFormattingManager(formatter);
 
