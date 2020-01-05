@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <ProjectGuid>{DDC0B05A-0D22-4883-81C5-CF70A8BF3AF1}</ProjectGuid>
-    <TargetFrameworks>net461;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
     <AssemblyTitle>SoluiNet.Core</AssemblyTitle>
     <Company>SoluiNet</Company>
     <Product>SoluiNet.Core</Product>
@@ -55,7 +55,7 @@
     <PackageReference Include="System.Data.SQLite.EF6" Version="1.0.112" />
     <PackageReference Include="System.Data.SQLite.Linq" Version="1.0.112" />
   </ItemGroup>
-  <ItemGroup Condition="$(TargetFramework) == 'netstandard2.1'">
+  <ItemGroup Condition="$(TargetFramework) == 'netstandard2.0'">
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.0" />
     <PackageReference Include="System.Drawing.Common" Version="4.7.0" />

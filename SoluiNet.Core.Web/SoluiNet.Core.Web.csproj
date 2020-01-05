@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <ProjectGuid>{A3D93824-3C6B-4A32-9615-6035B7D343F3}</ProjectGuid>
-    <TargetFrameworks>net461;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
     <AssemblyTitle>SoluiNet.Core.Web</AssemblyTitle>
     <Company>SoluiNet</Company>
     <Product>SoluiNet.Core.Web</Product>
