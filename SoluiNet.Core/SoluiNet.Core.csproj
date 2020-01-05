@@ -126,6 +126,6 @@
   </ItemGroup>
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Condition="'$(OS)' == 'Windows_NT'" Command="mkdir &quot;$(ProjectDir)images&quot;&#xD;&#xA;copy &quot;$(SolutionDir)icons\soluinet_logo_51x51.svg&quot; &quot;$(ProjectDir)images\logo.svg&quot;&#xD;&#xA;copy &quot;$(SolutionDir)icons\favicon.ico&quot; &quot;$(ProjectDir)images\favicon.ico&quot;" />
-    <Exec Condition="'$(OS)' == 'Unix'" Command="mkdir &quot;$(ProjectDir)images&quot;&#xD;&#xA;cp &quot;$(SolutionDir)icons\soluinet_logo_51x51.svg&quot; &quot;$(ProjectDir)images\logo.svg&quot;&#xD;&#xA;cp &quot;$(SolutionDir)icons\favicon.ico&quot; &quot;$(ProjectDir)images\favicon.ico&quot;" />
+    <Exec Condition="'$(OS)' == 'Unix'" Command="mkdir &quot;$(ProjectDir)images&quot;&#xD;&#xA;cp &quot;$(SolutionDir)icons/soluinet_logo_51x51.svg&quot; &quot;$(ProjectDir)images/logo.svg&quot;&#xD;&#xA;cp &quot;$(SolutionDir)icons/favicon.ico&quot; &quot;$(ProjectDir)images/favicon.ico&quot;" />
   </Target>
 </Project>
