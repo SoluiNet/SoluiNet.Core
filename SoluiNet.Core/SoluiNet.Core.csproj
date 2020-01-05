@@ -9,7 +9,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <OutputPath>..\SoluiNet.DevTools.UI\bin\$(TargetFramework)\$(Platform)\$(Configuration)\Plugins\</OutputPath>
+    <OutputPath>..\build\$(TargetFramework)\$(Platform)\$(Configuration)\$(ProjectName)</OutputPath>
     <DocumentationFile>$(OutputPath)$(AssemblyName).xml</DocumentationFile>
     <NoWarn>$(NoWarn)</NoWarn>
   </PropertyGroup>
@@ -38,6 +38,7 @@
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="PoorMansTSQLFormatter" Version="1.4.3.1" />
     <PackageReference Include="EntityFramework" Version="6.4.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.112" />
@@ -46,9 +47,6 @@
     <PackageReference Include="System.Data.SQLite.Linq" Version="1.0.112" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="PoorMansTSqlFormatterLib35">
-      <HintPath>..\libs\PoorMansTSqlFormatterLib35.dll</HintPath>
-    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
   </ItemGroup>
