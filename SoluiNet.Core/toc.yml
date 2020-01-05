@@ -1,11 +1,11 @@
 - name: Articles
   href: articles/
-- name: API Documentation
-  href: api/
-  homepage: api/index.md
-- name: UI API Documentation
-  href: api-ui/
-  homepage: api-ui/index.md
-- name: UI API Documentation (WPF)
-  href: api-ui-wpf/
-  homepage: api-ui-wpf/index.md
+- name: SoluiNet.Core
+  href: docs/SoluiNet.Core
+  homepage: docs/SoluiNet.Core/index.md
+- name: SoluiNet.Core.UI
+  href: docs/SoluiNet.Core.UI/
+  homepage: docs/SoluiNet.Core.UI/index.md
+- name: SoluiNet.Core.UI.WPF
+  href: docs/SoluiNet.Core.UI.WPF/
+  homepage: docs/SoluiNet.Core.UI.WPF/index.md

@@ -9,9 +9,13 @@
           "src": "./"
         }
       ],
-      "dest": "docs/SoluiNet.Core",
+      "dest": "docs/SoluiNet.Core/net461",
       "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "disableDefaultFilter": false,
+      "properties":
+      {
+        "TargetFramework": "net461"
+      }
     },
     {
       "src": [
@@ -19,12 +23,16 @@
           "files": [
             "**.csproj"
           ],
-          "src": "../SoluiNet.Core.UI/"
+          "src": "./"
         }
       ],
-      "dest": "docs/SoluiNet.Core.UI",
+      "dest": "docs/SoluiNet.Core/netstandard20",
       "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "disableDefaultFilter": false,
+      "properties":
+      {
+        "TargetFramework": "netstandard2.0"
+      }
     },
     {
       "src": [
@@ -32,24 +40,99 @@
           "files": [
             "**.csproj"
           ],
-          "src": "../SoluiNet.Core.UI.WPF/"
+          "src": "../SoluiNet.Core.UI"
         }
       ],
-      "dest": "docs/SoluiNet.Core.UI.WPF",
+      "dest": "docs/SoluiNet.Core.UI/net461",
       "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "disableDefaultFilter": false,
+      "properties":
+      {
+        "TargetFramework": "net461"
+      }
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**.csproj"
+          ],
+          "src": "../SoluiNet.Core.UI"
+        }
+      ],
+      "dest": "docs/SoluiNet.Core.UI/netstandard20",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "properties":
+      {
+        "TargetFramework": "netstandard2.0"
+      }
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**.csproj"
+          ],
+          "src": "../SoluiNet.Core.UI.WPF"
+        }
+      ],
+      "dest": "docs/SoluiNet.Core.UI.WPF/net461",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "properties":
+      {
+        "TargetFramework": "net461"
+      }
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**.csproj"
+          ],
+          "src": "../SoluiNet.Core.UI.WPF"
+        }
+      ],
+      "dest": "docs/SoluiNet.Core.UI.WPF/netstandard20",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "properties":
+      {
+        "TargetFramework": "netstandard2.0"
+      }
     }
   ],
+  "merge": {
+    "content":
+    [
+      {
+        "files": "**.yml",
+        "src": "docs/",
+      }
+    ],
+    "fileMetadata": 
+    {
+      "platform":
+      {
+        "docs/**/netstandard20/**.yml": 
+        [
+          "netstandard2.0"
+        ],
+        "docs/**/net461/**.yml":
+        [
+          "net461"
+        ]
+      }
+    },
+    "dest": "docs/merged"
+  },
   "build": {
     "content": [
       {
         "files": [
-          "docs/SoluiNet.Core/**.yml",
-          "docs/SoluiNet.Core/index.md",
-          "docs/SoluiNet.Core.UI/**.yml",
-          "docs/SoluiNet.Core.UI/index.md",
-          "docs/SoluiNet.Core.UI.WPF/**.yml",
-          "docs/SoluiNet.Core.UI.WPF/index.md"
+          "docs/merged/**.yml",
+          "docs/**/index.md"
         ]
       },
       {
