@@ -9,24 +9,7 @@
           "src": "./"
         }
       ],
-      "dest": "docs/SoluiNet.Core/net461",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false,
-      "properties":
-      {
-        "TargetFramework": "net461"
-      }
-    },
-    {
-      "src": [
-        {
-          "files": [
-            "**.csproj"
-          ],
-          "src": "./"
-        }
-      ],
-      "dest": "docs/SoluiNet.Core/netstandard20",
+      "dest": "docs/SoluiNet.Core",
       "disableGitFeatures": false,
       "disableDefaultFilter": false,
       "properties":
@@ -43,24 +26,7 @@
           "src": "../SoluiNet.Core.UI"
         }
       ],
-      "dest": "docs/SoluiNet.Core.UI/net461",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false,
-      "properties":
-      {
-        "TargetFramework": "net461"
-      }
-    },
-    {
-      "src": [
-        {
-          "files": [
-            "**.csproj"
-          ],
-          "src": "../SoluiNet.Core.UI"
-        }
-      ],
-      "dest": "docs/SoluiNet.Core.UI/netstandard20",
+      "dest": "docs/SoluiNet.Core.UI",
       "disableGitFeatures": false,
       "disableDefaultFilter": false,
       "properties":
@@ -77,61 +43,20 @@
           "src": "../SoluiNet.Core.UI.WPF"
         }
       ],
-      "dest": "docs/SoluiNet.Core.UI.WPF/net461",
+      "dest": "docs/SoluiNet.Core.UI.WPF",
       "disableGitFeatures": false,
       "disableDefaultFilter": false,
       "properties":
       {
         "TargetFramework": "net461"
-      }
-    },
-    {
-      "src": [
-        {
-          "files": [
-            "**.csproj"
-          ],
-          "src": "../SoluiNet.Core.UI.WPF"
-        }
-      ],
-      "dest": "docs/SoluiNet.Core.UI.WPF/netstandard20",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false,
-      "properties":
-      {
-        "TargetFramework": "netstandard2.0"
       }
     }
   ],
-  "merge": {
-    "content":
-    [
-      {
-        "files": "**.yml",
-        "src": "docs/",
-      }
-    ],
-    "fileMetadata": 
-    {
-      "platform":
-      {
-        "docs/**/netstandard20/**.yml": 
-        [
-          "netstandard2.0"
-        ],
-        "docs/**/net461/**.yml":
-        [
-          "net461"
-        ]
-      }
-    },
-    "dest": "docs/merged"
-  },
   "build": {
     "content": [
       {
         "files": [
-          "docs/merged/**.yml",
+          "docs/**.yml",
           "docs/**/index.md"
         ]
       },
